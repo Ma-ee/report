@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "ice"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "styles"
+		},
+		{
+			"path": "wwr"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ice"
+	}
+}

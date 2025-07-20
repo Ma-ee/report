@@ -1,0 +1,140 @@
+body {
+  background: url("images/floralbackground.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+  color: #5a4b41;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+header {
+  background-color: #f8c8dc;
+  color: #4e3e3e;
+  padding: 2rem 1rem;
+  font-family: 'Great Vibes', cursive;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.2rem;
+}
+
+h2, h3, h4 {
+  font-family: 'Great Vibes', cursive;
+  color: #9c5b6d;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #7b3f51;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #c97c9a;
+  color: #b63f73;
+}
+
+.colors td {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #aaa;
+}
+
+/* Floral tones */
+.primary {
+  background-color: #f4a9b8;
+}
+
+.secondary {
+  background-color: #ffe5ec;
+}
+
+.accent1 {
+  background-color: #d6c1d9;
+}
+
+.accent2 {
+  background-color: #f8f1f1;
+}
+
+.colored {
+  color: #7b3f51;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  main {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* Fade-in effect for sections */
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover effects */
+nav a:hover {
+  color: #b63f73;
+  transform: scale(1.05);
+}
